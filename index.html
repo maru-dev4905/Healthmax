@@ -1,0 +1,415 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Main</title>
+	<meta name="viewport" content="initial-scale=1, viewport-fit=cover">
+		    
+	<link rel="stylesheet" href="./css/reset.css">
+	<link rel="stylesheet" href="./css/font.css">
+	
+	<link rel="stylesheet" href="./css/animation.css">
+	
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    
+    <script src="js/jquery.fullpage.js"></script>
+    <script src="js/lib/jquery.easings.min.js"></script>
+    <script src="js/lib/countUp.min.js"></script>
+   
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/mobile/m-main.css">
+    <link rel="stylesheet" href="css/jquery.fullpag.css">
+  
+</head>
+<body>
+    <header>
+        <div class="header-main">
+            <h1 class="logo">
+                <a href="/main">
+                    <img src="./images/main/footer_logo.png" alt="logo">
+                </a>
+            </h1>
+        </div>
+        <ul class="gnb">
+            <li>
+                <a href="./serviceZone.html">
+                    서비스
+                </a>
+            </li>
+            <li>
+                <a href="/business">
+                    사업영역
+                </a>
+            </li>
+            <li>
+                <a href="/about">
+                    회사소개
+                </a>
+            </li>
+            <li>
+                <a href="/recruit">
+                    인재영입
+                </a>
+            </li>
+        </ul>
+        <button class="hambuger-open-btn">
+            <span></span>
+            <span></span>
+            <span></span>
+        </button>
+        <button class="hambuger-open-btn-m">
+            <span></span>
+            <span></span>
+            <span></span>
+        </button>
+    </header>
+    <div class="dim"></div>
+    <nav class="header-menu">
+        <div class="header-menu_main">
+            <ul class="">
+                <li class="header-menu_main_item">
+                    <a href="/main">홈</a>
+                </li>
+                <li class="header-menu_main_item">
+                    <a href="/serviceZone">서비스</a>
+                    <ul class="header-menu_sub">
+                        <li>
+                            <a href="/service">바이오그램</a>
+                        </li>
+                        <li>
+                            <a href="/serviceZone">바이오그램 존</a>
+                        </li>
+                    </ul>
+                </li>
+                <li class="header-menu_main_item">
+                    <a href="/business">사업영역</a>
+                    <ul class="header-menu_sub">
+                        <li>
+                            <a href="/business">사업개요</a>
+                        </li>
+                        <li>
+                            <a href="/business">사업영역</a>
+                        </li>
+                    </ul>
+                </li>
+                <li class="header-menu_main_item">
+                    <a href="/about">회사소개</a>
+                    <ul class="header-menu_sub">
+                        <li>
+                            <a href="/about">회사소개</a>
+                        </li>
+                        <li>
+                            <a href="/about">비전</a>
+                        </li>
+                        <li>
+                            <a href="/about">사업성과</a>
+                        </li>
+                        <li>
+                            <a href="/about">연혁</a>
+                        </li>
+                        <li>
+                            <a href="/about">수상경력</a>
+                        </li>
+                        <li>
+                            <a href="/contact">제휴문의</a>
+                        </li>
+                    </ul>
+                </li>
+                <li class="header-menu_main_item">
+                    <a href="/recruit">인재영입</a>
+                    <ul class="header-menu_sub">
+                        <li>
+                            <a href="/recruit">회사문화</a>
+                        </li>
+                        <li>
+                            <a href="/recruit">직무소개</a>
+                        </li>
+                        <li>
+                            <a href="/recruit">채용</a>
+                        </li>
+                    </ul>
+                </li>
+            </ul>
+        </div>
+        <button class="hambuger-close-btn"></button>
+    </nav>
+    <nav class="hambuger-menu">
+        <button class="hambuger-close-btn-m">
+            <span></span>
+            <span></span>
+        </button>
+        <ul class="hambuger-menu-gnb">
+            <li>
+                <a href="/service">service</a>
+                <ul class="hambuger-submenu">
+                    <li>
+                        <a href="/service">biogram</a>
+                    </li>
+                    <li>
+                        <a href="/serviceZone">biogram zone</a>
+                    </li>
+                </ul>
+            </li>
+            <li>
+                <a href="/business">business</a>
+            </li>
+            <li>
+                <a href="/about">about us</a>
+            </li>
+            <li>
+                <a href="/recruit">recruit</a>
+            </li>
+            <ul class="hambuger-menu-gnb_sub">
+                <li>
+                    <a href="/press">news</a>
+                </li>
+                <li>
+                    <a href="/contact">contact us</a>
+                </li>
+            </ul>
+        </ul>
+        <!--  ul class="hambuger-menu-lang">
+            <li>
+                <a href="#" class="active">kor</a>
+            </li>
+            <li>
+                <a href="#">en</a>
+            </li>
+        </ul -->
+    </nav>
+    <aside class="sec_nav">
+        <ul>
+            <li>
+                <span></span>
+            </li>
+            <li>
+                <span></span>
+            </li>
+            <li>
+                <span></span>
+            </li>
+            <li>
+                <span></span>
+            </li>
+            <li>
+                <span></span>
+            </li>
+        </ul>
+    </aside>
+    <div class="video">
+        <video controls="">
+            <source src="./move/helthmax.mp4" type="video/mp4">
+        </video>
+        <button class="video_close_btn">
+            <span></span>
+            <span></span>
+        </button>
+    </div>
+    <main id="fullpage" class="fullpage-wrapper">
+        <section class="intro section active">
+            <img class="first-intro-img" src="./images/main/main-intro-bg1.png" alt="main-intro-bg">
+            <img class="second-intro-img" src="./images/main/main-intro-bg2.png" alt="main-intro-bg">
+            <div class="intro_inner">
+                <div class="intro_text">
+                    <h2>
+                        Elevate Life Quality
+                    </h2>
+                    <p>헬스맥스의 맞춤형 건강 솔루션 지금 받아보세요</p>
+                </div>
+                <section class="intro_video">
+                    <div class="oh">
+                        <img src="./images/common/main/video.jpg" alt="video">
+                    </div>
+                    <div class="intro_video_content">
+                        <h3>VIDEO ABOUT THE COMPANY</h3>
+                        <span>1 : 14 MIN</span>
+                        <div class="oh">
+                            <button class="video_open_btn">
+                                <i>
+                                    <img src="./images/icon/play.png" alt="play ">
+                                </i>
+                            </button>
+                        </div>
+                    </div>
+                </section>
+                <section class="intro_news cf">
+                    <div class="intro_news_inner">
+                        <h4>NEWS</h4>
+                        <ul>
+                            <li>
+                                <a href="#">
+                                    <article>
+                                        <span>공지</span>
+                                        <h5>제15기 정기주주총회 결과 공고</h5>
+                                        <div class="news_content_bot">
+                                            <span>2021.03.25</span>
+                                            <i><img src="./images/icon/share.png" alt="share"></i>
+                                        </div>
+                                    </article>
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                </section>
+            </div>
+        </section>
+        <section class="service section">
+            <div class="service_title">
+                <div class="sec_title">
+                    <h2>SERVICE</h2>
+                    <p>
+                        건강과 IT의 만남  헬스테크.
+                        <br>
+                        헬스맥스의 주요 서비스를 소개합니다.
+                    </p>
+                </div>
+            </div>
+            <div class="service_content">
+                <div class="service_content_text">
+                    <h4>디지털 헬스케어</h4>
+                    <img src="./images/main/biogram-logo.png" alt="biogram">
+                    <p>
+                        바이오그램은 다양한 IoT 건강장비를 통해 나의 신체데이터를
+                        <br>
+                        주기적으로 측정하여 정확한 자가진단과 입체적 건강관리
+                        <br>
+                        서비스를 제공하는 글로벌 스마트 헬스케어 플랫폼입니다.
+                    </p>
+                    <a href="/service">자세히보기</a>
+                </div>
+            </div>
+        </section>
+        <section class="business section">
+            <div class="business_countup">
+                <div class="sec_title">
+                    <h2>BUSINESS</h2>
+                    <p>
+                        헬스케어의 새로운 미래와 패러다임을 선도할
+                        <br>
+                        헬스맥스의 도전은 계속됩니다.
+                    </p>
+                </div>
+                <div class="count-up">
+                    <ul>
+                        <li>
+                            <h3 id="countUp01">20</h3>
+                            <span>관련 특허(건)</span>
+                        </li>
+                        <li>
+                            <h3 id="countUp02">114,645</h3>
+                            <span>회원수(명)</span>
+                        </li>
+                        <li>
+                            <h3 id="countUp03">293</h3>
+                            <span>전국 바이오그램 존(개소)</span>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div class="business_link">
+                <ul>
+                    <li>
+                        <a href="/business">디지털 헬스케어</a>
+                    </li>
+                    <li>
+                        <a href="/business">비대면 헬스케어</a>
+                    </li>
+                    <li>
+                        <a href="/business">타운 헬스케어</a>
+                    </li>
+                    <li>
+                        <a href="/business">인슈어테크 헬스케어</a>
+                    </li>
+                </ul>
+            </div>
+        </section>
+        <section class="about section">
+            <div class="sec_title">
+                <h2>ABOUT</h2>
+                <p>
+                    헬스맥스는 건강 컨텐츠와 IT기술을 접목하여 맞춤형 건강관리 서비스를
+                    <br>
+                    제공하는 헬스케어 전문기업 입니다.
+                </p>
+            </div>
+            <div class="about_content">
+                <div class="oh">
+                    <img src="./images/common/graph.svg" alt="">
+                </div>
+            </div>
+        </section>
+        <footer class="footer-m section">
+            <div class="footer_left">
+                <h2>
+                    <img src="./images/main/footer_logo.png" alt="footer-logo">
+                </h2>
+                <nav class="fnb">
+                    <ul>
+                        <li>
+                            <a href="/about">회사소개</a>
+                        </li>
+                        <!--li>
+                            <a href="/privacy">이용약관</a>
+                        </li-->
+                        <li>
+                            <a href="/contact">제휴문의</a>
+                        </li>
+                        <li>
+                            <a href="/press">공지사항</a>
+                        </li>
+                    </ul>
+                </nav>
+                <div class="footer_content">
+                    <p>우) 06167 서울특별시 강남구 삼성로 524(쌈성동 156-3) 세화빌딩 5층</p>
+                    <span>
+                        대표전화:02-581-8151
+                    </span>
+                    <span>
+                        팩스:02-581-8153
+                    </span>
+                </div>
+                <p class="footer_copy">Copyright©HealthMax All Rights Reserved</p>
+            </div>
+            <div class="footer_right">
+                <ul>
+                    <li>
+                        <a href="#" target="_blank">
+                            <i>
+                                <img src="./images/icon/sns_fb.png" alt="facebook-icon">
+                            </i>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="https://blog.naver.com/healthmax8151" target="_blank">
+                            <i>
+                                <img src="./images/icon/sns_blg.png" alt="blog-icon">
+                            </i>
+                        </a>
+                    </li>
+                </ul>
+                <div class="footer_content" style="padding-top:92px;margin-left: 48px;">
+	        		<img src="./images/icon/royalCert.png" alt="iso-06411" style="width:40px; height:40px; position: absolute; margin: 3px 0 0 -48px;">
+	        		정보보안 국제표준<br>
+	        		ISO 06411 인증 획득
+	       		</div>
+            </div>
+        </footer>
+    </main>
+    <script>
+        var about = $(".about");
+        var winX = $(window).width();
+        
+        if(winX <= 768){
+            $(".intro_news_inner ul li").addClass("slide");
+        }
+        $('#fullpage').fullpage({
+            verticalCentered: true,
+            controlArrows:false,
+        });
+    </script>
+    <script type="text/javascript" src="js/hambuger.js"></script>
+    <script type="text/javascript" src="js/main.js"></script>
+
+</body>
+</html>

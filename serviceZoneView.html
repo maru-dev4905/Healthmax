@@ -1,0 +1,347 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BiogramZoneView</title>
+	<meta name="viewport" content="initial-scale=1, viewport-fit=cover">
+	
+    <link rel="stylesheet" href="./css/reset.css">
+    <link rel="stylesheet" href="./css/font.css">
+    <link rel="stylesheet" href="./css/animation.css">
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/list.css">
+    <link rel="stylesheet" href="./css/mobile/m-style.css">
+    <link rel="stylesheet" href="./css/mobile/m-press.css">
+
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+</head>
+<body>
+    <header class="">
+        <div class="header_inner inner">
+            <h1 class="logo">
+                <a href="./index.html">
+                    <img src="./images/main/logo.png" alt="logo">
+                </a>
+            </h1>
+            <button class="hambuger-open-btn">
+                <span style="background-color: inherit;">menu</span>
+                <span style="background-color: inherit;"></span>
+                <span style="background-color: inherit;"></span>
+                <span style="background-color: inherit;"></span>
+            </button>
+        </div>
+        <nav class="gnb">
+            <div class="gnb_main">
+                <ul class="">
+                    <li class="gnb_main_item">
+                        <a href="./index.html">홈</a>
+                    </li>
+                    <li class="gnb_main_item">
+                        <a href="./serviceZone.html">서비스</a>
+                        <ul class="gnb_sub">
+                            <li>
+                                <a href="./serviceZone.html">바이오그램</a>
+                            </li>
+                            <li>
+                                <a href="./serviceZoneView.html">바이오그램 존</a>
+                            </li>
+                        </ul>
+                    </li>
+                    <li class="gnb_main_item">
+                        <a href="./business.html">사업영역</a>
+                        <ul class="gnb_sub">
+                            <li>
+                                <a href="./business.html#slide">사업개요</a>
+                            </li>
+                            <li>
+                                <a href="./business.html#area">사업영역</a>
+                            </li>
+                        </ul>
+                    </li>
+                    <li class="gnb_main_item">
+                        <a href="./about.html">회사소개</a>
+                        <ul class="gnb_sub">
+                            <li><a href="./press.html#press">공지사항</a></li> 
+                            <li><a href="./about.html#about">회사소개</a></li>
+                            <li><a href="./about.html#vision">비전</a></li>
+                            <li><a href="./about.html#slideLong">사업성과</a></li>
+                            <li><a href="./about.html#history">연혁</a></li>
+                            <li><a href="./about.html#career">수상경력/특허</a></li>
+                        </ul>
+                    </li>
+                    <li class="gnb_main_item">
+                        <a href="./recruitView.html">인재영입</a>
+                        <ul class="gnb_sub">
+                            <li>
+                                <a href="./recruitView.html#culture">회사문화</a>
+                            </li>
+                            <li>
+                                <a href="./recruitView.html#duties">직무소개</a>
+                            </li>
+                            <li>
+                                <a href="./recruitView.html#notice">채용</a>
+                            </li>
+                        </ul>
+                    </li>
+                </ul>
+            </div>
+            <button class="hambuger-close-btn"></button>
+        </nav>
+        <nav class="hambuger-menu">
+            <button class="hambuger-close-btn">
+                <span></span>
+                <span></span>
+            </button>
+            <ul class="hambuger-menu-gnb">
+                <li>
+                    <a href="./serviceZone.html">service</a>
+                </li>
+                <li>
+                    <a href="./business.html">business</a>
+                </li>
+                <li>
+                    <a href="./about.html">about us</a>
+                </li>
+                <li>
+                    <a href="./recruitView.html">recruit</a>
+                </li>
+                <ul class="hambuger-menu-gnb_sub">
+                    <li>
+                        <a href="./press.html">news</a>
+                    </li>
+                </ul>
+            </ul>
+        </nav>
+    </header>
+    <div class="dim"></div>
+    <article class="page_title">
+        <h2>Biogram Zone</h2>
+        <p>
+            가까운 바이오그램 존을 방문해
+            <br>
+            나의 건강을 측정할 수 있습니다.
+        </p>
+    </article>
+    <main>
+        <article class="filter biogram-filter">
+            <ul>
+                <li>
+                    <button class="filter-all-btn">전체</button>
+                </li>
+            </ul>
+            <div class="select-wrap">
+                <div class="select-default">지역선택</div>
+                <ul class="select-box">
+                    <li>서울시</li>
+                    <li>수도권</li>
+                    <li>경상도</li>
+                    <li>전라도</li>
+                    <li>충청도</li>
+                </ul>
+            </div>
+        </article>
+        <section class="list">
+            <ul>
+                <li class="list_item">
+                    <a href="/serviceZoneView">
+                        <div class="list_item_sub">
+                            <i>서울</i>
+                            <strong>강남</strong>
+                            <span class="list-mark-text">외부인 출입 가능</span>
+                        </div>
+                        <div class="list_item_title">
+                            <h3>강남미즈메디병원</h3>
+                            <span>서울특별시 강남구 도곡로 452 6층</span>
+                        </div>
+                        <span class="list_mark">
+                            <i>
+                                <img src="./images/icon/mark.jpg" alt="mark-icon">
+                            </i>
+                            외부인 출입 가능
+                        </span>
+                        <button class="list_item_btn"></button>
+                    </a>
+                </li>
+                <li class="list_item">
+                    <a href="/serviceZoneView">
+                        <div class="list_item_sub">
+                            <i>서울</i>
+                            <strong>강남</strong>
+                        </div>
+                        <div class="list_item_title">
+                            <h3>보령메디앙스</h3>
+                            <span>서울 강남구 논현로64길 4 보령메디앙스 6층</span>
+                        </div>
+                        <button class="list_item_btn"></button>
+                    </a>
+                </li>
+                <li class="list_item">
+                    <a href="/serviceZoneView">
+                        <div class="list_item_sub">
+                            <i>서울</i>
+                            <strong>강남</strong>
+                        </div>
+                        <div class="list_item_title">
+                            <h3>캐논코리아 비즈니스솔루션</h3>
+                            <span>서울특별시 강남구 테헤란로 607 캐논케이타워</span>
+                        </div>
+                        <button class="list_item_btn"></button>
+                    </a>
+                </li>
+                <li class="list_item">
+                    <a href="/serviceZoneView">
+                        <div class="list_item_sub">
+                            <i>서울</i>
+                            <strong>강남</strong>
+                        </div>
+                        <div class="list_item_title">
+                            <h3>대치동 래미안</h3>
+                        </div>
+                        <button class="list_item_btn"></button>
+                    </a>
+                </li>
+                <li class="list_item">
+                    <a href="/serviceZoneView">
+                        <div class="list_item_sub">
+                            <i>서울</i>
+                            <strong>강남</strong>
+                        </div>
+                        <div class="list_item_title">
+                            <h3>자곡동 래미안</h3>
+                        </div>
+                        <button class="list_item_btn"></button>
+                    </a>
+                </li>
+                <li class="list_item">
+                    <a href="/serviceZoneView">
+                        <div class="list_item_sub">
+                            <i>서울</i>
+                            <strong>강동</strong>
+                            <span class="list-mark-text">외부인 출입 가능</span>
+                        </div>
+                        <div class="list_item_title">
+                            <h3>강동구청</h3>
+                            <span>서울특별시 강동구 성내로 25 강동구청</span>
+                        </div>
+                        <span class="list_mark">
+                            <i>
+                                <img src="./images/icon/mark.jpg" alt="mark-icon">
+                            </i>
+                            외부인 출입 가능
+                        </span>
+                        <button class="list_item_btn"></button>
+                    </a>
+                </li>
+                <li class="list_item">
+                    <a href="/serviceZoneView">
+                        <div class="list_item_sub">
+                            <i>서울</i>
+                            <strong>강동</strong>
+                            <span class="list-mark-text">외부인 출입 가능</span>
+                        </div>
+                        <div class="list_item_title">
+                            <h3>시립서울장애인종합복지관</h3>
+                            <span>서울특별시 강동구 고덕로 201 수중재활센터 B1층</span>
+                        </div>
+                        <span class="list_mark">
+                            <i>
+                                <img src="./images/icon/mark.jpg" alt="mark-icon">
+                            </i>
+                            외부인 출입 가능
+                        </span>
+                        <button class="list_item_btn"></button>
+                    </a>
+                </li>
+                <li class="list_item">
+                    <a href="/serviceZoneView">
+                        <div class="list_item_sub">
+                            <i>서울</i>
+                            <strong>강북</strong>
+                            <span class="list-mark-text">외부인 출입 가능</span>
+                        </div>
+                        <div class="list_item_title">
+                            <h3>강북구보건소</h3>
+                            <span>서울특별시 강북구 한천로 897</span>
+                        </div>
+                        <span class="list_mark">
+                            <i>
+                                <img src="./images/icon/mark.jpg" alt="mark-icon">
+                            </i>
+                            외부인 출입 가능
+                        </span>
+                        <button class="list_item_btn"></button>
+                    </a>
+                </li>
+            </ul>
+            <div class="list-empty">
+                <i>
+                    <img src="./images/icon/mark.jpg" alt="empty-mark">
+                </i>
+                <p>
+                    아직 등록된 게시글이 없습니다.
+                </p>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="footer_left">
+            <h1>
+                <a href="/main">
+                    <img src="./images/main/footer_logo.png" alt="logo">
+                </a>
+            </h1>
+        </div>
+        <div class="footer_right">
+            <nav class="fnb">
+                <ul>
+                    <li>
+                        <a href="/about">회사소개</a>
+                    </li>
+                    <li>
+                        <a href="/contact">제휴문의</a>
+                    </li>
+                    <li>
+                        <a href="/press">공지사항</a>
+                    </li>
+                </ul>
+            </nav>
+            <div class="footer_right_bottom">
+                <p>우) 06167 서울특별시 강남구 삼성로 524 (삼성동 156-3) 세화빌딩 5층</p>
+                <span style="margin-bottom: 1%;">대표전화: 02-581-8151</span>
+                <span style="margin-bottom: 1%;">팩스: 02-581-8153</span>
+                <div class="footer_content" style="margin-left: 48px;color: #fff;font-size: 13px;font-family: 'Noto Sans KR', sans-serif;font-weight: 100;line-height: 23px;margin-bottom: 1%;">
+	        		<img src="./images/icon/royalCert.png" alt="iso-06411" style="width:40px; height:40px; position: absolute; margin: 3px 0 0 -48px;">
+	        		정보보안 국제표준<br>
+	        		ISO 06411 인증 획득
+	       		</div>
+                <p>Copyright©HealthMax All Rights Reserved.</p>
+            </div>
+            <nav class="sns">
+                <ul>
+                    <li>
+                        <a href="#" target="blank">
+                            <i>
+                                <img src="./images/icon/sns_fb.png" alt="facebook-icon">
+                            </i>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#" target="blank">
+                            <i>
+                                <img src="./images/icon/sns_blg.png" alt="blog-icon">
+                            </i>
+                        </a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+    </footer>
+    <script type="text/javascript" src="./js/hambuger.js"></script>
+    <script type="text/javascript" src="./js/slide.js"></script>
+    <script type="text/javascript" src="./js/intro.js"></script>
+    <script type="text/javascript" src="./js/filterScroll.js"></script>
+    <script type="text/javascript" src="./js/select.js"></script>
+</body>
+</html>

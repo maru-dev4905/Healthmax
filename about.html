@@ -1,0 +1,519 @@
+<!DOCTYPE html>
+<html lang="ko">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Business</title>
+        <link rel="stylesheet" href="./css/reset.css">
+        <link rel="stylesheet" href="./css/font.css">
+        <link rel="stylesheet" href="./css/animation.css">
+        <link rel="stylesheet" href="./css/style.css">
+        <link rel="stylesheet" href="./css/intro.css">
+        <link rel="stylesheet" href="./css/mobile/m-intro.css">
+        <link rel="stylesheet" href="./css/mobile/m-style.css">
+    
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+        <!-- aos -->
+        <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+        <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    </head>
+<body>
+    <header class="">
+        <div class="header_inner inner">
+            <h1 class="logo">
+                <a href="./index.html">
+                    <img src="./images/main/logo.png" alt="logo">
+                </a>
+            </h1>
+            <button class="hambuger-open-btn">
+                <span style="background-color: inherit;">menu</span>
+                <span style="background-color: inherit;"></span>
+                <span style="background-color: inherit;"></span>
+                <span style="background-color: inherit;"></span>
+            </button>
+        </div>
+        <nav class="gnb">
+            <div class="gnb_main">
+                <ul class="">
+                    <li class="gnb_main_item">
+                        <a href="./index.html">홈</a>
+                    </li>
+                    <li class="gnb_main_item">
+                        <a href="./serviceZone.html">서비스</a>
+                        <ul class="gnb_sub">
+                            <li>
+                                <a href="./serviceZone.html">바이오그램</a>
+                            </li>
+                            <li>
+                                <a href="./serviceZoneView.html">바이오그램 존</a>
+                            </li>
+                        </ul>
+                    </li>
+                    <li class="gnb_main_item">
+                        <a href="./business.html">사업영역</a>
+                        <ul class="gnb_sub">
+                            <li>
+                                <a href="./business.html#slide">사업개요</a>
+                            </li>
+                            <li>
+                                <a href="./business.html#area">사업영역</a>
+                            </li>
+                        </ul>
+                    </li>
+                    <li class="gnb_main_item">
+                        <a href="./about.html">회사소개</a>
+                        <ul class="gnb_sub">
+                            <li><a href="./press.html#press">공지사항</a></li> 
+                            <li><a href="./about.html#about">회사소개</a></li>
+                            <li><a href="./about.html#vision">비전</a></li>
+                            <li><a href="./about.html#slideLong">사업성과</a></li>
+                            <li><a href="./about.html#history">연혁</a></li>
+                            <li><a href="./about.html#career">수상경력/특허</a></li>
+                        </ul>
+                    </li>
+                    <li class="gnb_main_item">
+                        <a href="./recruitView.html">인재영입</a>
+                        <ul class="gnb_sub">
+                            <li>
+                                <a href="./recruitView.html#culture">회사문화</a>
+                            </li>
+                            <li>
+                                <a href="./recruitView.html#duties">직무소개</a>
+                            </li>
+                            <li>
+                                <a href="./recruitView.html#notice">채용</a>
+                            </li>
+                        </ul>
+                    </li>
+                </ul>
+            </div>
+            <button class="hambuger-close-btn"></button>
+        </nav>
+        <nav class="hambuger-menu">
+            <button class="hambuger-close-btn">
+                <span></span>
+                <span></span>
+            </button>
+            <ul class="hambuger-menu-gnb">
+                <li>
+                    <a href="./serviceZone.html">service</a>
+                </li>
+                <li>
+                    <a href="./business.html">business</a>
+                </li>
+                <li>
+                    <a href="./about.html">about us</a>
+                </li>
+                <li>
+                    <a href="./recruitView.html">recruit</a>
+                </li>
+                <ul class="hambuger-menu-gnb_sub">
+                    <li>
+                        <a href="./press.html">news</a>
+                    </li>
+                </ul>
+            </ul>
+        </nav>
+    </header>
+    <div class="dim"></div>
+    <article class="page_title">
+        <h2>About us</h2>
+        <p>
+            헬스맥스는 건강 컨텐츠에 IT기술을 접목하여
+            <br>
+            맞춤형 건강관리 서비스를 제공하는 
+            <br> 
+            디지털 헬스케어 전문 기업입니다.
+        </p>
+    </article>
+    <section class="banner">
+        <img src="./images/main/about-banner.jpg" alt="banner" data-aos="zoom-out" class="aos-init aos-animate">
+    </section>
+    <main>
+        <aside class="snb">
+            <ul class="fixed">
+                <li class="active">
+                    <button class="about">회사소개</button>
+                </li>
+                <li>
+                    <button class="vision">비전</button>
+                </li>
+                <li>
+                    <button class="slideLong">사업성과</button>
+                </li>
+                <li>
+                    <button class="history">연혁</button>
+                </li>
+                <li>
+                    <button class="career">수상경력</button>
+                </li>
+            </ul>
+        </aside>
+        <div class="intro_wrapper">
+            <section id="about">
+                <div class="sec_title">
+                    <h3 data-aos="fade-up" data-aos-offset="-20" class="aos-init">회사소개</h3>
+                    <p data-aos="fade-up" data-aos-delay="200" data-aos-offset="-20" class="aos-init">
+                        헬스맥스의 한 걸음 한 걸음이 디지털 헬스케어의 미래입니다. 
+                        <br>
+                        헬스맥스는 건강으로 인한 사회, 경제 문제를 개선하여 삶의 질을 높이기 위해
+                        <br>
+                        건강 관리에 있어 빠른 판단과 실효성 높은 조언을 제공하는 기술 개발 및 서비스 구현에 최선을 다하고 있습니다.
+                    </p>
+                </div>
+                <div id="slide">
+                    <div class="slide_left_img">
+                        <div class="slide_left_img_inner">
+                            <img src="./images/common/intro-img01.jpg" alt="intro-img">
+                            <img src="./images/common/intro-img03.jpg" alt="intro-img">
+                        </div>
+                    </div>
+                    <div class="slide_content">
+                        <div class="slide_text show">
+                            <h4 data-aos="fade-in" class="aos-init">사회적 가치</h4>
+                            <p data-aos="fade-in" class="aos-init">
+                                직장과 가정, 공공 장소 등 지역 곳곳에서 접할 수 있는 무료 건강체크 부스 바이오그램 존은
+                                <br>
+                                누구나 스스로 건강 상태를 체크하고 관리하게 함으로써 지속적으로 증가하는 
+                                <br>
+                                만성질환으로 인한 사회, 경제적 문제들을 해결할 수 있습니다.
+                            </p>
+                        </div>
+                        <div class="slide_text">
+                            <h4 data-aos="fade-in" data-aos-offset="-50" class="aos-init">경제적 가치</h4>
+                            <p data-aos="fade-in" data-aos-offset="-150" class="aos-init">
+                                매년 증가하는 만성질환과 합병증으로 인한 의료비등 사회경제적 손실비용과
+                                건강악화에 따른 노동력 손실로 인한 천문학적인 가계 및 기업손실 비용은 산출조차
+                                어렵습니다. 건강개선은 곧 미래 손실비용 보존으로 성립되어 경제적 가치를 증명합니다
+                            </p>
+                        </div>
+                        <div class="slide_nav">
+                            <span class="active">01</span>
+                            <span>02</span>
+                        </div>
+                        <div class="slide_content_btn">
+                            <button class="slide_prev intro_slide_prev"></button>
+                            <button class="slide_next intro_slide_next"></button>
+                        </div>
+                    </div>
+                    <div class="slide_right_img">
+                        <img src="./images/common/intro-img02.jpg" alt="intro-img">
+                        <img src="./images/common/intro-img04.jpg" alt="intro-img">
+                    </div>
+                </div>
+            </section>
+
+            <section id="vision">
+                <div class="sec_title">
+                    <h3 data-aos="fade-up" data-aos-offset="100" class="aos-init">비전</h3>
+                    <strong data-aos="fade-up" data-aos-delay="150" data-aos-offset="100" class="aos-init">Elevate Life Quality</strong>
+                    <p data-aos="fade-up" data-aos-delay="200" data-aos-offset="100" class="aos-init">
+                        질병의 증상이 일어나기 전에 증상의 정도와 시기를 예측하여 언제든 원하는 장소에서 전세계 최고 수준의 헬스케어를 누리는 세상.
+                        <br>
+                        나만의 맞춤 AI 홈닥터가 24시간 나를 모니터링하며 밀착 케어하는 경험
+                        <br>
+                        누구나 쉽게 스스로 건강을 측정하고 추이를 예측, 적절한 시기에 필요한 관리를 받아 
+                        <br>
+                        생애주기 동안 건강한 삶을 누릴 수 있도록 헬스맥스는 기술 개발에 최선을 다하고 있습니다. 
+                    </p>
+                </div>
+                <div class="vision_img aos-init" data-aos="fade-up" data-aos-offfset="100">
+                </div>
+            </section>
+            <section id="slideLong" class="about">
+                <div class="sec_title">
+                    <h3 data-aos="fade-up" class="aos-init">사업성과</h3>
+                </div>
+                <article class="slide-long-card show">
+                    <div class="slide-long-card-inner">
+                        <div class="sec_title">
+                            <strong data-aos="fade-up" data-aos-delay="200" data-aos-offset="-200" class="aos-init">서울시와 스마트 헬스 공동 사업</strong>
+                            <p data-aos="fade-up" data-aos-delay="300" data-aos-offset="-200" class="aos-init">
+                                서울시는 25개 구의 보건소를 통한 대사증후군관리 사업에 바이오그램 서비스를 도입,
+                                <br>
+                                현재 약 100여 개의 바이오그램 존을 설치하여 대상자 발굴부터 맞춤형 자가관리까지 ICT 기반으로 진행하고 있습니다. 
+                            </p>
+                        </div>
+                        <span>01</span>
+                        <img src="./images/common/performance-img01.jpg" alt="performance-img">
+                    </div>
+                </article>
+                <article class="slide-long-card">
+                    <div class="slide-long-card-inner">
+                        <div class="sec_title">
+                            <strong data-aos-delay="100">대한불교조계종 전통사찰 템플헬스케어서비스 구축사업 계약체결</strong>
+                            <p data-aos-delay="150">
+                                대한 불교 조계종 산하 200여 개의 사찰을 스마트 헬스케어 거점으로 활용, 의료 접근성이
+                                떨어지는 인근 지역 주민들에게 만성 질환 예방 및 관리 서비스를 제공하고 있습니다                   
+                            </p>
+                        </div>
+                        <span>02</span>
+                        <img src="./images/common/performance-img02.jpg" alt="performance-img">
+                    </div>
+                </article>
+                <article class="slide-long-card">
+                    <div class="slide-long-card-inner">
+                        <div class="sec_title">
+                            <strong data-aos-delay="100">인도네시아 ICT 기반 스마트 헬스케어 사업 진출</strong>
+                            <p data-aos-delay="150">
+                                인도네시아 복지부가 추진한 비전염성 질환관리 e-포스빈두(보건지소) 사업 체결
+                                현지 바이오 전문 기업 피리담과 IT 기업 전문 프리마와 함께 ICT 기반 헬스케어 시스템 사업을 진행하고 있습니다.                   
+                            </p>
+                        </div>
+                        <span>03</span>
+                        <img src="./images/common/performance-img03.jpg" alt="performance-img">
+                    </div>
+                </article>
+                <article class="slide-long-card">
+                    <div class="slide-long-card-inner">
+                        <div class="sec_title">
+                            <strong data-aos-delay="100">칠레 ICT 기반 스마트 헬스케어 사업 진출</strong>
+                            <p data-aos-delay="150">
+                                한국 보건복지부와 칠레 보건부가 공동 추진한 칠레 건강 관리 모니터링 시범 사업 참여
+                                현지 공공의료기관에 ICT 기반 만성관리질환 모니터링 시스템을 제공하였습니다.                   
+                            </p>
+                        </div>
+                        <span>04</span>
+                        <img src="./images/common/performance-img04.jpg" alt="performance-img">
+                    </div>
+                </article>
+                <div class="slide_content_btn">
+                    <button class="slide_prev perform_slide_prev"></button>
+                    <button class="slide_next perform_slide_next"></button>
+                </div>
+            </section>    
+
+            <section id="history">
+                <div class="sec_title">
+                    <h3 data-aos="fade-up" data-aos-offset="100" class="aos-init">연혁</h3>
+                    <p data-aos="fade-up" data-aos-delay="200" data-aos-offset="100" class="aos-init">
+                        온 국민의 건강증진과 삶의 질 향상을 목표로 2006년 첫 발을 내딛은 헬스맥스는
+                        글로벌 디지털 헬스케어 기업으로 도약하기 위해 오늘도 성실히 노력하고 있습니다.
+                    </p>
+                </div>
+                <div class="history_wrap">
+                    <ul class="history_container" style="width: 1560px;">
+                        <li class="history_item aos-init" data-aos="fade-up" data-aos-delay="100">
+                            <article class="history_card">
+                                <img src="./images/common/history-img01.jpg" alt="">
+                                <h4>2020</h4>
+                                <ul>
+                                    <li>
+                                        <strong>12월</strong>
+                                        <p>
+                                            신한생명 앱 “스마트 창구”에 바이오그램을 이용한 건강분석서비스 제공 계약
+                                        </p>
+                                    </li>
+                                    <li>
+                                        <strong>10월</strong>
+                                        <p>
+                                            기존 캐디에서 바이오그램으로 브랜드 리뉴얼
+                                        </p>
+                                    </li>
+                                </ul>
+                            </article>
+                        </li>
+                        <li class="history_item aos-init" data-aos="fade-up" data-aos-delay="200">
+                            <article class="history_card">
+                                <img src="./images/common/history-img02.jpg" alt="">
+                                <h4>2019</h4>
+                                <ul>
+                                    <li>
+                                        <strong>11월</strong>
+                                        <p>
+                                            방문운동코칭 전문 기업 후케어스 코리아와 고객 맞춤 건강 관리 서비스를 위한
+                                            전략적 파트너쉽
+                                        </p>
+                                    </li>
+                                    <li>
+                                        <strong>10월</strong>
+                                        <p>
+                                            인슈어테크 기업 인바이유와 건강 관리 서비스를 위한 업무 협약
+                                        </p>
+                                    </li>
+                                    <li>
+                                        <strong>8월</strong>
+                                        <p>
+                                            서울시와 U헬스존 100개소 신설하는 스마트헬스 사업 협약
+                                        </p>
+                                    </li>
+                                </ul>
+                            </article>
+                        </li>
+                        <li class="history_item aos-init" data-aos="fade-up" data-aos-delay="300">
+                            <article class="history_card">
+                                <img src="./images/common/history-img03.jpg" alt="">
+                                <h4>2018</h4>
+                                <ul>
+                                    <li>
+                                        <strong>9월</strong>
+                                        <p>
+                                            대한불교조계종 전통사찰 템플헬스케어서비스 구축사업 계약체결
+                                            (사업비170억)
+                                        </p>
+                                    </li>
+                                    <li>
+                                        <strong>7월</strong>
+                                        <p>
+                                            인도네시아 ICT기반 의료시스템 진출 시범사업
+                                        </p>
+                                    </li>
+                                    <li>
+                                        <strong>2월</strong>
+                                        <p>
+                                            보건소 모바일헬스케어 사업참여(2016년 ~)
+                                        </p>
+                                    </li>
+                                </ul>
+                            </article>
+                        </li>
+                        <li class="history_item aos-init" data-aos="fade-up" data-aos-delay="400">
+                            <article class="history_card">
+                                <img src="./images/common/history-img04.jpg" alt="">
+                                <h4>2017</h4>
+                                <ul>
+                                    <li>
+                                        <strong>9월</strong>
+                                        <p>
+                                            칠레 ICT기반 헬스케어 서비스 한국보건산업 진흥원장 상
+                                        </p>
+                                    </li>
+                                    <li>
+                                        <strong>7월</strong>
+                                        <p>
+                                            인도네시아 ICT기반 의료시스템 진출 시범사업
+                                        </p>
+                                    </li>
+                                    <li>
+                                        <strong>2월</strong>
+                                        <p>
+                                            보건소 모바일헬스케어 사업참여 (2016~) 
+                                        </p>
+                                    </li>
+                                </ul>
+                            </article>
+                        </li>
+                    </ul>
+                </div>
+                <div class="slide_content_btn">
+                    <button class="slide_prev history_slide_prev"></button>
+                    <button class="slide_next history_slide_next"></button>
+                </div>
+            </section>
+
+            <section id="career">
+                <div class="sec_title">
+                    <h3>수상경력</h3>
+                </div>
+                <div class="career_wrap">
+                    <ul class="career_container" style="width: 2800px;">
+                    <li data-aos="fade-up" data-aos-offset="100" class="aos-init">
+                        <img src="./images/common/career-img01.jpg" alt="">
+                    </li>
+                    <li data-aos="fade-up" data-aos-offset="100" data-aos-delay="100" class="aos-init">
+                        <img src="./images/common/career-img02.jpg" alt="">
+                    </li>
+                    <li data-aos="fade-up" data-aos-offset="100" data-aos-delay="150" class="aos-init">
+                        <img src="./images/common/career-img03.jpg" alt="">
+                        
+                    </li>
+                    <li data-aos="fade-up" data-aos-offset="100" data-aos-delay="200" class="aos-init">
+                        <img src="./images/common/career-img04.jpg" alt="">
+                    </li>
+                    <li data-aos="fade-up" data-aos-offset="100" data-aos-delay="250" class="aos-init">
+                        <img src="./images/common/career-img05.jpg" alt="">
+                    </li>
+                    <li data-aos="fade-up" data-aos-offset="100" data-aos-delay="300" class="aos-init">
+                        <img src="./images/common/career-img06.jpg" alt="">
+                    </li>
+                    <li data-aos="fade-up" data-aos-offset="100" data-aos-delay="350" class="aos-init">
+                        <img src="./images/common/career-img07.jpg" alt="">
+                    </li>
+                    <li data-aos="fade-up" data-aos-offset="100" data-aos-delay="400" class="aos-init">
+                        <img src="./images/common/career-img08.jpg" alt="">
+                    </li>
+                    <li data-aos="fade-up" data-aos-offset="100" data-aos-delay="450" class="aos-init">
+                        <img src="./images/common/career-img09.jpg" alt="">
+                    </li>
+                    <li data-aos="fade-up" data-aos-offset="100" data-aos-delay="550" class="aos-init">
+                        <img src="./images/common/career-img10.jpg" alt="">
+                    </li>
+                    </ul>
+                </div>
+                <div class="slide_content_btn">
+                    <button class="slide_prev career_slide_prev"></button>
+                    <button class="slide_next career_slide_next"></button>
+                </div>
+            </section>
+        </div>
+    </main>
+    <footer>
+        <div class="footer_left">
+            <h1>
+                <a href="/main">
+                    <img src="./images/main/footer_logo.png" alt="logo">
+                </a>
+            </h1>
+        </div>
+        <div class="footer_right">
+            <nav class="fnb">
+                <ul>
+                    <li>
+                        <a href="/about">회사소개</a>
+                    </li>
+                    <li>
+                        <a href="/contact">제휴문의</a>
+                    </li>
+                    <li>
+                        <a href="/press">공지사항</a>
+                    </li>
+                </ul>
+            </nav>
+            <div class="footer_right_bottom">
+                <p>우) 06167 서울특별시 강남구 삼성로 524 (삼성동 156-3) 세화빌딩 5층</p>
+                <span style="margin-bottom: 1%;">대표전화: 02-581-8151</span>
+                <span style="margin-bottom: 1%;">팩스: 02-581-8153</span>
+                <div class="footer_content" style="margin-left: 48px;color: #fff;font-size: 13px;font-family: 'Noto Sans KR', sans-serif;font-weight: 100;line-height: 23px;margin-bottom: 1%;">
+	        		<img src="./images/icon/royalCert.png" alt="iso-06411" style="width:40px; height:40px; position: absolute; margin: 3px 0 0 -48px;">
+	        		정보보안 국제표준<br>
+	        		ISO 06411 인증 획득
+	       		</div>
+                <p>Copyright©HealthMax All Rights Reserved.</p>
+            </div>
+            <nav class="sns">
+                <ul>
+                    <li>
+                        <a href="#" target="blank">
+                            <i>
+                                <img src="./images/icon/sns_fb.png" alt="facebook-icon">
+                            </i>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#" target="blank">
+                            <i>
+                                <img src="./images/icon/sns_blg.png" alt="blog-icon">
+                            </i>
+                        </a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+    </footer>
+    <script>
+        
+        AOS.init({
+            duration: 1000
+        });
+        window.addEventListener("resize",function(){
+            var winX = innerWidth;
+        })
+        window.addEventListener("load",function(){
+            var winX = innerWidth;
+        })
+    </script>
+    <script src="./js/hambuger.js"></script>
+    <script src="./js/slide.js"></script>
+    <script src="./js/intro.js"></script>
+</body>
+</html>
